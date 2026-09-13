@@ -799,6 +799,7 @@
 
 .tv_frame .tv_wrapper .next_prev_box {
   width: 25px;
+  cursor: pointer;
 }
 
 .tv_frame .container .next_prev_box img {
@@ -914,3 +915,4 @@
   color: rgba(98, 105, 116, 1);
 }
 
+  
