@@ -18,6 +18,16 @@ p {
   display: flex;
 }
 
+.container .next_prev_box {
+  width: 25px;
+  cursor: pointer;
+}
+
+.container  .next_prev_box img {
+  position: absolute;
+  top: 50%;
+}
+
 /* NAVBAR */
 .navbar_frame {
   position: relative;
