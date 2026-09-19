@@ -405,16 +405,16 @@
   flex-direction: row;
 }
 
-.spec_product_frame .product_wrapper .next_prev_box {
+.selling_product_frame .product_wrapper .next_prev_box {
   width: 25px;
 }
 
-.spec_product_frame .product_wrapper .next_prev_box img {
+.selling_product_frame .product_wrapper .next_prev_box img {
   position: absolute;
   top: 50%;
 }
 
-.spec_product_frame .product_boxs {
+.selling_product_frame .product_boxs {
   width: 1280px;
   height: 452px;
   display: flex;
@@ -423,7 +423,7 @@
   position: relative;
 }
 
-.spec_product_frame .product_box {
+.selling_product_frame .product_box {
   width: 306px;
   height: 100%;
   display: flex;
@@ -431,7 +431,7 @@
   flex-direction: column;
 }
 
-.spec_product_frame .product_box .product_img {
+.selling_product_frame .product_box .product_img {
   width: 100%;
   height: 280px;
   /* display: flex;
@@ -439,7 +439,7 @@
   align-items: center; */
 }
 
-.spec_product_frame .product_box .product_img .hover_box {
+.selling_product_frame .product_box .product_img .hover_box {
   display: none;
 
   width: 100%;
@@ -449,7 +449,7 @@
   align-items: center;
 }
 
-.spec_product_frame .product_box .product_img .hover_box button {
+.selling_product_frame .product_box .product_img .hover_box button {
   width: 100%;
   height: 52px;
   margin-bottom: 10px;
@@ -475,17 +475,17 @@
   text-align: center;
 }
 
-.spec_product_frame .product_box .product_img:hover .hover_box {
+.selling_product_frame .product_box .product_img:hover .hover_box {
   display: flex;
 }
 
-.spec_product_frame .product_content {
+.selling_product_frame .product_content {
   margin-top: 7px;
   padding: 10px;
   background: white;
 }
 
-.spec_product_frame .product_content .product_title {
+.selling_product_frame .product_content .product_title {
   font-family: "Jost";
   font-style: Regular;
   font-size: 13px;
@@ -497,7 +497,7 @@
   color: rgba(98, 105, 116, 1);
 }
 
-.spec_product_frame .product_content .product_desc {
+.selling_product_frame .product_content .product_desc {
   margin-top: 7px;
   color: rgba(4, 30, 66, 1);
 
@@ -510,15 +510,15 @@
   text-align: left;
 }
 
-.spec_product_frame .review_box {
+.selling_product_frame .review_box {
   margin-top: 13px;
 }
 
-.spec_product_frame .review_box img {
+.selling_product_frame .review_box img {
   margin-right: 5px;
 }
 
-.spec_product_frame .review_box span {
+.selling_product_frame .review_box span {
   color: rgba(98, 105, 116, 1);
 
   font-family: "Jost";
@@ -530,7 +530,7 @@
   text-align: left;
 }
 
-.spec_product_frame .product_content .price_box strong {
+.selling_product_frame .product_content .price_box strong {
   color: rgba(4, 30, 66, 1);
 
   font-family: "Jost";
@@ -542,7 +542,7 @@
   text-align: left;
 }
 
-.spec_product_frame .product_content .price_box span {
+.selling_product_frame .product_content .price_box span {
   color: rgba(98, 105, 116, 1);
 
   font-family: "Jost";
@@ -922,17 +922,77 @@
 .event_info {
   width: 334px;
   height: 214px;
+}
 
-  background: aqua;
+.event_info span {
+  color: rgba(255, 255, 255, 1);
+
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.event_info .event_day {
+  display: flex;
+margin-top: 20px;
+}
+
+.event_info .event_day div {
+  width: 60px;
+  height: 60px;
+  margin-right: 35px;
+
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 40px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.event_info .event_day div span {
+  color: rgba(255, 255, 255, 1);
+
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.event_info a div{
+  width: 141px;
+  height: 52px;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 1);
+border-radius: 6px;
+background: rgba(255, 255, 255, 1);
+
+color: rgba(4, 30, 66, 1);
+
+font-family: "Jost";
+font-style: Medium;
+font-size: 15px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: center;
 }
 
 .event_wrapper {
-  width: 100%;
+  width: 970px;
   height: auto;
   position: relative;
   display: flex;
   flex-direction: row;
-  box-sizing: border-box;
+  justify-content: space-between;
 }
 
 .event_boxs {
@@ -959,9 +1019,8 @@
 .event_img_box {
   width: 100%;
   height: 190px;
- 
-  /* margin-top: 10px; */
 
+  /* margin-top: 10px; */
 }
 
 .event_info_box {
@@ -1033,7 +1092,4 @@
   text-align: left;
   text-decoration-line: line-through;
   color: rgba(98, 105, 116, 1);
-}
-
-.event_wrapper .next_prev_box{
 }
